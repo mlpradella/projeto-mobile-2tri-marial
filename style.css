@@ -7,6 +7,11 @@ h1 {
     color: #FFF3A2;
 }
 
+h2{
+    color: #FFF3A2;
+    text-align: center;
+}
+
 .conteudo {
     text-align: center;
     color: #FFF3A2;
@@ -50,4 +55,9 @@ h1 {
     padding: 20px;
     background-color: #1d2f4b;
     border-radius: 10px;
+}
+
+.lista{
+    color: #FFF3A2;
+    font-size: 25px;
 }
