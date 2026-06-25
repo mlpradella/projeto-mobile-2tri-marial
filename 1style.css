@@ -1,26 +1,17 @@
 body {
-    background-color: #213657;
+    background-color:  #213657;
 }
 
 h1 {
     text-align: center;
     color: #FFF3A2;
+    font-size: 45px;
 }
 
-h2{
-    color: #FFF3A2;
-    text-align: center;
-}
-
-.conteudo {
+h2 {
     text-align: center;
     color: #FFF3A2;
-    font-size: 25px;
-    margin-top: 50px;
-}
-
-.container {
-    width: 100%;
+    font-size: 28px;
 }
 
 .avisos {
@@ -34,7 +25,7 @@ h2{
     border-radius: 10px;
 }
 
-.avaliacoes {
+.tarefas {
     width: 380px;
     color: #FFF3A2;
     margin-left: 520px;
@@ -46,7 +37,7 @@ h2{
     border-radius: 10px;
 }
 
-.calendario {
+.usuarios {
     width: 380px;
     color: #FFF3A2;
     margin-left: 990px;
@@ -55,9 +46,4 @@ h2{
     padding: 20px;
     background-color: #1d2f4b;
     border-radius: 10px;
-}
-
-.lista{
-    color: #FFF3A2;
-    font-size: 25px;
 }

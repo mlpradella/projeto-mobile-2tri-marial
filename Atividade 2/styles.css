@@ -1,0 +1,43 @@
+body {
+    background-color:  #213657;
+}
+
+h1 {
+    color: #FFF3A2;
+    font-size: 45px;
+}
+
+h2 {
+    color: #FFF3A2;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+p {
+    color: #FFF3A2;
+    font-size: 25px;
+    background-color: #1d2f4b;
+    border-radius: 8px;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.segundapag {
+    background-color: #FFF3A2;
+    color: #24395A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,76 @@
+body {
+    background-color: #213657;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF3A2;
+}
+
+h2{
+    color: #FFF3A2;
+    text-align: center;
+}
+
+.conteudo {
+    text-align: center;
+    color: #FFF3A2;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+}
+
+.avisos {
+    width: 380px;
+    color: #FFF3A2;
+    margin-left: 60px;
+    margin-top: 60px;
+    min-height: 200px; 
+    padding: 20px;
+    background-color: #1d2f4b;
+    border-radius: 10px;
+}
+
+.avaliacoes {
+    width: 380px;
+    color: #FFF3A2;
+    margin-left: 520px;
+    margin-top: -240px;
+    border-radius: 8px;
+    min-height: 200px; 
+    padding: 20px;
+    background-color: #1d2f4b;
+    border-radius: 10px;
+}
+
+.calendario {
+    width: 380px;
+    color: #FFF3A2;
+    margin-left: 990px;
+    margin-top: -240px;
+    min-height: 200px; 
+    padding: 20px;
+    background-color: #1d2f4b;
+    border-radius: 10px;
+}
+
+.lista{
+    color: #FFF3A2;
+    font-size: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.segundapag {
+    background-color: #FFF3A2;
+    color: #24395A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
