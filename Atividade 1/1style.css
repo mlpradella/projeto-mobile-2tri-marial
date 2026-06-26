@@ -30,7 +30,6 @@ h2 {
     color: #FFF3A2;
     margin-left: 520px;
     margin-top: -240px;
-    border-radius: 8px;
     min-height: 200px; 
     padding: 20px;
     background-color: #1d2f4b;
@@ -46,4 +45,17 @@ h2 {
     padding: 20px;
     background-color: #1d2f4b;
     border-radius: 10px;
+}
+
+.atividade {
+    background-color: #FFF3A2;
+    color: #24395A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 700px;
+}
+
+.botao {
+    margin-top: 50px;
 }
