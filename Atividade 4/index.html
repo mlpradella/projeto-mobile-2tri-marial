@@ -1,17 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Cadastro</title>
 </head>
 <body>
+
     <h1>Título</h1>
 
-    <button>
-        <a href="../Atividade 2/projeto.html"> Botão</a>
-    </button>
-    
+    <div class="base">
+        <a href="../Atividade 2/projeto.html" class="botao">Next</a>
+    </div>
+
+    <!-- Caixa -->
+    <div class="caixa">
+        <h2>Algum título</h2>
+        <p>Esta é uma caixa com borda, sombra e espaçamento interno.</p>
+    </div>
+
+    <!-- Botão abaixo da caixa -->
+    <div class="botao-caixa">
+        <a href="../Atividade 4/1index.html" class="botao2">
+            Página de avisos
+        </a>
+    </div>
+
+    <!-- Formulário -->
+    <div class="formulario">
+
+        <h2>Cadastro</h2>
+
+        <form>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome do aluno">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Seu email">
+
+            <label for="turma">Turma</label>
+            <select id="turma" name="turma">
+                <option value="">Selecione uma turma</option>
+                <option value="6">Turma 6</option>
+                <option value="7">Turma 7</option>
+                <option value="8">Turma 8</option>
+            </select>
+
+            <button class="cadastro" type="submit">Cadastrar</button>
+
+        </form>
+
+    </div>
+
 </body>
 </html>

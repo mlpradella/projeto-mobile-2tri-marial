@@ -1,11 +1,110 @@
-body {
-    background-color: #8dcfec;
+body{
+    background-color: #b3e5fc;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h1{
     text-align: center;
 }
 
-button {
-    background-color: blueviolet;
+.base{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
+
+.botao{
+    background-color: #64b7f6;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Caixa */
+
+.caixa{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.caixa h2{
+    margin-top: 0;
+}
+
+/* Botão abaixo da caixa */
+
+.botao-caixa{
+    margin-left: 350px;   /* mesmo alinhamento da caixa */
+    margin-top: 15px;
+}
+
+.botao2{
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #64b7f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao2:hover{
+    background-color: #3a9be6;
+}
+/* Formulário */
+
+.formulario{
+    width: 350px;
+    padding: 30px;
+    background-color: #64b7f6;
+    border-radius: 10px;
+    margin-left: 820px;
+    margin-top: -200px;
+}
+
+.formulario h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario label{
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.formulario input,
+.formulario select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.formulario button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: white;
+    color: #24395A;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
