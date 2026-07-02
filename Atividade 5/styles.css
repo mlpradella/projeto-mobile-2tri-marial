@@ -1,0 +1,191 @@
+/* --- RESET E ESTILOS GERAIS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- CABEÇALHO & BOTÃO ESTILIZADO --- */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+.dashboard-header h2 {
+    color: #2c3e50;
+}
+
+.botao1,
+.botao2,
+.botao3 {
+    background: #22543d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(109, 92, 232, 0.2);
+    margin: 0;
+}
+
+/* define espaço mínimo entre eles */
+.botao1 { margin-right: 2px; }
+.botao2 { margin-right: 2px; }
+.botao3 { margin-right: 0; }
+
+/* --- TÍTULOS DE SEÇÃO --- */
+.section-title {
+    font-size: 1.15rem;
+    color: #4a5568;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.section-container {
+    margin-bottom: 30px;
+}
+
+/* --- CARDS DE AVISOS --- */
+.alerts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Força 4 colunas em telas largas */
+@media (min-width: 1200px) {
+    .alerts-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.alert-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    border-left: 5px solid #ccc;
+}
+
+.alert-card h4 {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+.alert-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Variantes de cores dos avisos */
+.alert-card.warning { border-left-color: #f1c40f; background: #fefbe6; }
+.alert-card.warning h4 { color: #b7791f; }
+
+.alert-card.danger { border-left-color: #e74c3c; background: #fff5f5; }
+.alert-card.danger h4 { color: #c53030; }
+
+.alert-card.success { border-left-color: #2ecc71; background: #f0fff4; }
+.alert-card.success h4 { color: #22543d; }
+
+/* --- ESTRUTURA DO CONTEÚDO PRINCIPAL (COLUNAS) --- */
+.dashboard-content {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.content-left {
+    flex: 2;
+    min-width: 450px;
+}
+
+.content-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* --- TABELAS --- */
+.table-responsive {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+    font-size: 0.95rem;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #718096;
+    font-weight: 600;
+    border-bottom: 1px solid #edf2f7;
+}
+
+td {
+    border-bottom: 1px solid #edf2f7;
+    color: #4a5568;
+}
+
+/* Status Badges */
+.status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.status.present { background-color: #c6f6d5; color: #22543d; }
+.status.pending { background-color: #bee3f8; color: #2b6cb0; }
+.status.done { background-color: #e2e8f0; color: #4a5568; }
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 900px) {
+    .dashboard-content {
+        flex-direction: column;
+    }
+    
+    .content-left, .content-right {
+        width: 100%;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .botao1, .botao2, .botao3 {
+        width: 100%;
+    }
+}

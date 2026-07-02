@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Estudante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h2>Avisos escolares</h2>
+            <button class="botao1"> link 1</button>
+            <button class="botao2"> link 2</button>
+            <button class="botao3"> link 3</button>
+        </header>
+
+        <section class="section-container">
+            <h3 class="section-title">Avisos Importantes</h3>
+            <div class="alerts-grid">
+                <div class="alert-card warning">
+                    <h4>Tarefas</h4>
+                    <p>Existem 5 tarefas pendentes para essa semana.</p>
+                </div>
+                <div class="alert-card danger">
+                    <h4>Provas</h4>
+                    <p>Existem 2 provas para essa semana.</p>
+                </div>
+                <div class="alert-card success">
+                    <h4>Aulas</h4>
+                    <p>Aula de Educação Física na quadra essa semana.</p>
+                </div>
+                <div class="alert-card success">
+                    <h4>Aulas</h4>
+                    <p>Aula de química no laboratorio essa semana.</p>
+                </div>
+            </div>
+        </section>
+        <div class="dashboard-content">
+            <section class="content-left">
+                <h3 class="section-title">Menu</h3>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Opção</th>
+                                <th>Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Início</td>
+                                <td><span class="status present">Abrir</span></td>
+                            </tr>
+                            <tr>
+                                <td>Avisos</td>
+                                <td><span class="status present">Abrir</span></td>
+                            </tr>
+                            <tr>
+                                <td>Configurações</td>
+                                <td><span class="status present">Abrir</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        
+            <!-- Tabela de Conteúdos -->
+            <section class="content-right">
+                <h3 class="section-title">Conteúdos</h3>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Disciplina</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Matemática</td>
+                                <td><span class="status pending">Disponível</span></td>
+                            </tr>
+                            <tr>
+                                <td>História</td>
+                                <td><span class="status done">Concluído</span></td>
+                            </tr>
+                            <tr>
+                                <td>Química</td>
+                                <td><span class="status pending">Disponível</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+        
+        
+    </div>
+
